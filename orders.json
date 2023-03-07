@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "640698101a20956570cc7863"
+  },
+  "shopperId": {
+    "$code": "function(t){return(0,l.assertArgsDefinedType)([t],[[void 0,\"string\",\"number\",\"object\"]],\"ObjectId\"),new e.ObjectId(t)}"
+  },
+  "products": [
+    {
+      "productId": {
+        "$code": "function(t){return(0,l.assertArgsDefinedType)([t],[[void 0,\"string\",\"number\",\"object\"]],\"ObjectId\"),new e.ObjectId(t)}"
+      },
+      "quantity": "number"
+    }
+  ],
+  "totalAmount": "number",
+  "status": "string",
+  "orderDate": "date",
+  "deliveryAddress": "string"
+}]
